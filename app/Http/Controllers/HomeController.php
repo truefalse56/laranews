@@ -9,9 +9,6 @@ class HomeController extends Controller
 {
     public function index()
 {
-    $banners = \App\Models\Banner::where('is_active', true)
-        ->orderBy('position')
-        ->get();
-    return view('index', compact('banners'));
+    return view('home');
 }
 }

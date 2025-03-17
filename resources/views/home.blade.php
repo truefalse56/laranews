@@ -1,28 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- Banner Area Start -->
-<div class="banner-area fix">
-    <div class="container">
-        <div class="banner-slider owl-carousel">
-            @foreach($banners as $banner)
-                <div class="banner-item">
-                    <img src="{{ $banner->image_url }}" alt="{{ $banner->title }}">
-                    <div class="banner-caption">
-                        <h2>{{ $banner->title }}</h2>
-                        @if($banner->description)
-                            <p>{{ $banner->description }}</p>
-                        @endif
-                        @if($banner->link)
-                            <a href="{{ $banner->link }}" class="btn btn-primary">Подробнее </a>
-                        @endif
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </div>
-</div>
-<!-- Banner Area End -->
 
 <!-- Trending Area Start -->
 <div class="trending-area fix">
@@ -48,7 +26,7 @@
                     <!-- Trending Top -->
                     <div class="trending-top mb-30">
                         <div class="trend-top-img">
-                            <img src="{{ asset('resources/img/trending/trending_top.jpg') }}" alt="">
+                            <img src="{{ asset('img/trending/trending_top.jpg') }}" alt="">
                             <div class="trend-top-cap">
                                 <span>Appetizers</span>
                                 <h2><a href="details.html">Welcome To The Best Model Winner<br> Contest At Look of the year</a></h2>
@@ -61,7 +39,7 @@
                             <div class="col-lg-4">
                                 <div class="single-bottom mb-35">
                                     <div class="trend-bottom-img mb-30">
-                                        <img src="{{ asset('resources/img/trending/trending_bottom1.jpg') }}" alt="">
+                                        <img src="{{ asset('img/trending/trending_bottom1.jpg') }}" alt="">
                                     </div>
                                     <div class="trend-bottom-cap">
                                         <span class="color1">Lifestyle</span>

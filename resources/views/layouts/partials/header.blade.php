@@ -9,18 +9,18 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('resources/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/ticker-style.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/slicknav.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/fontawesome-all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/nice-select.css') }}">
-    <link rel="stylesheet" href="{{ asset('resources/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/ticker-style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Tailwind CSS -->
     <style>
@@ -37,8 +37,8 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left">
                                 <ul>
-                                    <li><img src="{{ asset('resources/img/icon/header_icon1.png') }}" alt="">34ºc, солнечно</li>
-                                    <li><img src="{{ asset('resources/img/icon/header_icon1.png') }}" alt="">{{ date("F j, Y, g:i a")}}</li>
+                                    <li><img src="{{ asset('img/icon/header_icon1.png') }}" alt="">34ºc, солнечно</li>
+                                    <li><img src="{{ asset('img/icon/header_icon1.png') }}" alt="">{{ date("F j, Y, g:i a")}}</li>
                                 </ul>
                             </div>
                             <div class="header-info-right">
@@ -58,12 +58,12 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-3 col-lg-3 col-md-3">
                             <div class="logo">
-                                <a href=""><img src="{{ asset('resources/img/logo/logo.png') }}" alt=""></a>
+                                <a href=""><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="header-banner f-right">
-                                <img src="{{ asset('resources/img/hero/header_card.jpg') }}" alt="">
+                                <img src="{{ asset('img/hero/header_card.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
                             <div class="sticky-logo">
-                                <a href=""><img src="{{ asset('resources/img/logo/logo.png') }}" alt=""></a>
+                                <a href=""><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
                             </div>
                             <div class="main-menu d-none d-md-block">
                                 <nav>

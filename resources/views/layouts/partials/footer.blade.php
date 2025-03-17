@@ -5,7 +5,7 @@
                 <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
                     <div class="single-footer-caption">
                         <div class="footer-logo">
-                            <a href=""><img src="{{ asset('resources/img/logo/logo2_footer.png') }}" alt=""></a>
+                            <a href=""><img src="{{ asset('img/logo/logo2_footer.png') }}" alt=""></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">
@@ -29,7 +29,7 @@
                                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
                                         <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
                                         <div class="form-icon">
-                                            <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm"><img src="{{ asset('resources/img/logo/form-iocn.png') }}" alt=""></button>
+                                            <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm"><img src="{{ asset('img/logo/form-iocn.png') }}" alt=""></button>
                                         </div>
                                         <div class="mt-10 info"></div>
                                     </form>
@@ -45,12 +45,12 @@
                         </div>
                         <div class="instagram-gellay">
                             <ul class="insta-feed">
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra1.jpg') }}" alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra2.jpg') }}" alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra3.jpg') }}" alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra4.jpg') }}" alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra5.jpg') }}" alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('resources/img/post/instra6.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra1.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra2.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra3.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra4.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra5.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('img/post/instra6.jpg') }}" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,28 +82,28 @@
     </div>
 </footer>
     <!-- JS -->
-    <script src="{{ asset('resources/js/vendor/modernizr-3.5.0.min.js') }}"></script>
-    <script src="{{ asset('resources/js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ asset('resources/js/popper.min.js') }}"></script>
-    <script src="{{ asset('resources/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.slicknav.min.js') }}"></script>
-    <script src="{{ asset('resources/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('resources/js/slick.min.js') }}"></script>
-    <script src="{{ asset('resources/js/gijgo.min.js') }}"></script>
-    <script src="{{ asset('resources/js/wow.min.js') }}"></script>
-    <script src="{{ asset('resources/js/animated.headline.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.magnific-popup.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.ticker.js') }}"></script>
-    <script src="{{ asset('resources/js/site.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.scrollUp.min.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('resources/js/contact.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.form.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.validate.min.js') }}"></script>
-    <script src="{{ asset('resources/js/mail-script.js') }}"></script>
-    <script src="{{ asset('resources/js/jquery.ajaxchimp.min.js') }}"></script>
-    <script src="{{ asset('resources/js/plugins.js') }}"></script>
-    <script src="{{ asset('resources/js/main.js') }}"></script>
+    <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ asset('js/gijgo.min.js') }}"></script>
+    <script src="{{ asset('js/wow.min.js') }}"></script>
+    <script src="{{ asset('js/animated.headline.js') }}"></script>
+    <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
+    <script src="{{ asset('js/jquery.ticker.js') }}"></script>
+    <script src="{{ asset('js/site.js') }}"></script>
+    <script src="{{ asset('js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('js/contact.js') }}"></script>
+    <script src="{{ asset('js/jquery.form.js') }}"></script>
+    <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('js/mail-script.js') }}"></script>
+    <script src="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>
