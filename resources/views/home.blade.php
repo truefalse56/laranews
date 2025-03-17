@@ -14,7 +14,7 @@
                             <p>{{ $banner->description }}</p>
                         @endif
                         @if($banner->link)
-                            <a href="{{ $banner->link }}" class="btn btn-primary">Подробнее</a>
+                            <a href="{{ $banner->link }}" class="btn btn-primary">Подробнее </a>
                         @endif
                     </div>
                 </div>
